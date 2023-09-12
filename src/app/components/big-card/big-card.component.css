@@ -1,5 +1,4 @@
 .container__big-card{
-   
     margin-left: 10px;
     margin-right:10px ;
     width: 450px;
@@ -10,7 +9,6 @@
     justify-content: flex-start;
 }
 .big-card__title>h1{
-    
     font-size: 20px;
     margin-top: 10px;
    
@@ -21,7 +19,6 @@
 
 .big-card__description>p>a{
     color:grey;
-   
     word-wrap: break-word;
 }
 .big-card__photo>img{

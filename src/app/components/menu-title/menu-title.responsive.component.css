@@ -1,6 +1,38 @@
-@media screen and(min-width:730px) {
-    .container__menu-title>{
-  
-    font-size: 10px;
+@media screen and (min-width:200px) {
+    .container__menu-title>h1,
+    .container__menu-title>hr {
+        max-width: 500px;
+        font-size:43px;
+        width: 100%;
+       
+    }
 }
+@media screen and (min-width:500px) {
+    .container__menu-title>h1,
+    .container__menu-title>hr {
+        max-width: 700px;
+        font-size:43px;
+        width: 100%;
+       
+    }
 }
+@media screen and (min-width:700px) {
+    .container__menu-title>h1,
+    .container__menu-title>hr {
+        max-width: 800px;
+        font-size:43px;
+        width: 100%;
+       
+    }
+}
+@media screen and (min-width:800px) {
+    .container__menu-title>h1,
+    .container__menu-title>hr {
+        max-width: none;
+        font-size:80px;
+        
+       
+    }
+}
+
+

@@ -1,15 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #111111;
+    background-color: rgb(27, 27, 27);
     color: #fff;
     font-family: 'segoe UI';
-    
+
 }
-a{
+
+a {
     text-decoration: none;
-   
+
+}
+
+@media screen and (min-width:200px) {
+    * {
+        max-width: 500px;
+        margin: 0px;
+        padding: 0px;
+        align-items: end;
+        ;
+    }
+}
+
+@media screen and (min-width:500px) {
+    * {
+        max-width: 800px;
+        margin: 0px;
+        padding: 0px;
+        align-items: normal;
+    }
+}
+
+@media screen and (min-width:800px) {
+    * {
+        max-width: none;
+        margin: 0px;
+        padding: 0px;
+       
+
+    }
 }

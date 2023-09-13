@@ -9,19 +9,18 @@
     justify-content: flex-start;
 }
 .big-card__title>h1{
-    font-size: 20px;
+    font-size: 10px;
     margin-top: 10px;
    
-}
-.big-card__description{
-    margin-top: 10px;
 }
 
 .big-card__description>p>a{
     color:grey;
     word-wrap: break-word;
+    font-size: 18px;
+  
 }
 .big-card__photo>img{
-    height:250px;
+    height:20px;
     width: 100%;
 }

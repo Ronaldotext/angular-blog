@@ -1,0 +1,41 @@
+@media screen and (min-width:200px) {
+    .container__articles {
+
+
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+
+
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .container__articles {
+
+
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+
+
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .container__articles {
+
+
+        max-width: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+       
+
+
+
+    }
+}
